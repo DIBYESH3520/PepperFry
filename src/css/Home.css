@@ -1,0 +1,117 @@
+/* Home.css */
+
+/* General Container */
+body{
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+div {
+    box-sizing: border-box;
+}
+
+/* Banner Section */
+.banner {
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    cursor: pointer;
+}
+
+/* Offers Section */
+.offers {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 20px 0;
+    
+}
+
+.offers img {
+    width: 100%;
+    max-width: 370px;
+    height: auto;
+    /* border-radius: 8px; */
+    aspect-ratio: auto 419 / 117;
+    cursor: pointer;
+}
+
+/* Ads Section */
+.ads {
+    margin: 20px 0;
+}
+
+.ads img {
+    width: 100%;
+    height: auto;
+    /* border-radius: 8px; */
+    cursor: pointer;
+}
+
+/* Deals Component */
+.deals-component {
+    margin: 20px 0;
+}
+
+/* Big Card */
+.big-card {
+    margin: 20px 0;
+}
+
+/* Discover Card */
+.discover-card {
+    margin: 20px 0;
+}
+
+/* More Card */
+.more-card {
+    margin: 20px 0;
+}
+
+/* Checkout Card */
+.checkout-card {
+    margin: 20px 0;
+}
+
+/* Footer */
+.footer {
+    /* margin: 20px 0; */
+    /* padding: 20px; */
+    background-color: #f3f5f7;
+}
+
+hr {
+    border: 10px;
+    width: 100%;
+    border-top: 1px solid #e0e0e0;
+    margin: 20px 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .offers {
+        flex-direction: column;
+    }
+
+    .offers img {
+        margin-bottom: 10px;
+    }
+
+    .ads {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .offers img,
+    .ads img {
+        border-radius: 5px;
+    }
+}

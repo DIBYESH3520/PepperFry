@@ -1,7 +1,7 @@
-
-
-import React, { useEffect, useState } from "react";
+import { isAdminContext } from "../context/isAdmin";
+import React, { useContext, useEffect, useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
+import '../css/login.css'; 
 
 const Login = () => {
   const [users, setUsers] = useState([]);
@@ -9,12 +9,18 @@ const Login = () => {
   const [pass, setPass] = useState("");
 
   const navigate = useNavigate();
+  const { toggleLogin } = useContext(isAdminContext); 
 
   async function fetchData() {
-    let res = await fetch("http://localhost:3000/user");
-    let data = await res.json();
-    setUsers(data);
-    console.log(data);
+    try {
+      let res = await fetch("http://localhost:3000/user");
+      if (!res.ok) throw new Error('Network response was not ok');
+      let data = await res.json();
+      setUsers(data);
+    } catch (error) {
+      console.error('Error fetching users:', error);
+      alert('Error fetching user data. Please try again later.');
+    }
   }
 
   useEffect(() => {
@@ -28,14 +34,16 @@ const Login = () => {
 
     if (userFound) {
       alert("Login successful!");
+      toggleLogin(); 
       navigate("/");
     } else {
-      alert("Invalid credentials");
+      alert("You are not signed up");
+      navigate("/signup");
     }
   }
 
   return (
-    <div>
+    <div className="login-container">
       <h1>Login</h1>
       <input
         type="text"

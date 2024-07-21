@@ -1,0 +1,203 @@
+.FooterBox{
+    height: 130vh;
+    width: 100%;
+    background-color: white;
+    hr{
+        margin: 0rem 9rem 0rem 9rem;
+        /* background-color: #848484; */
+    }
+}
+.write h6{
+    text-align: center;
+    font-size: 16px;
+}
+.write{
+    background-color: white;
+    font-size: 10px;
+}
+.FooterFirstHalf{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap:50px;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding: 55px;
+    padding-bottom: 0;
+}
+.UsefulLinks{
+    .footer--headings{
+        font-size: 16px;
+        color: #121212;
+        font-weight: bold;
+    }
+    li{
+        list-style: none;
+        /* color: #848484; */
+        font-weight: lighter;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+}
+.Partners{
+    .footer--headings{
+        font-size: 16px;
+        color: #121212;
+        font-weight: normal;
+    }
+    li{
+        list-style: none;
+        /* color: #848484; */
+        font-weight: lighter;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+}
+.NeedHelp{
+    .footer--headings{
+        font-size: 16px;
+        color: #121212;
+        font-weight: normal;
+    }
+    li{
+        list-style: none;
+        /* color: #848484; */
+        font-weight: lighter;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+}
+.DownloadApp{
+    h2{
+        font-family: 'Playfair Display', serif;
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    img{
+        margin-bottom: 10px;
+        height: 60px;
+        width: 165px;
+    }
+}
+.FooterSecondHalf{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding: 55px;
+    grid-gap: 50px;
+}
+.PopularCategories{
+    .titles{
+        font-size: 16px;
+        color: #121212;
+        font-weight: normal;
+        margin-bottom: 10px;
+    }
+
+    p{
+        /* color: #848484; */
+        font-weight: lighter;
+        font-size: 14px;
+        line-height: 1.4;
+    }
+}
+.PopularBrands{
+    .titles{
+        font-size: 16px;
+        color: #121212;
+        font-weight: normal;
+        margin-bottom: 10px;
+    }
+
+    p{
+        /* color: #848484; */
+        font-weight: lighter;
+        font-size: 14px;
+        line-height: 1.4;
+    }
+}
+.Cities{
+    .titles{
+        font-size: 16px;
+        color: #121212;
+        font-weight: normal;
+        margin-bottom: 10px;
+    }
+
+    p{
+        /* color: #848484; */
+        font-weight: lighter;
+        font-size: 14px;
+        line-height: 1.4;
+    }
+}
+.FooterThirdHalf{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 7%;
+    grid-gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .titles{
+        font-size: 16px;
+        color: #121212;
+        font-weight: normal;
+        margin-bottom: 10px;
+    }
+}
+.icons{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    
+}
+.FooterLeft{
+    img{
+        height: 60px;
+        width: 70px;
+        padding: 4px;
+    }
+}
+.FooterRight{
+    img{
+        height: 50px;
+        width: 50px;
+        padding: 5px;
+    }
+}
+.FooterFourthHalf{
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 90px;
+
+    .leftside, .rightside{
+        display: flex;
+        /* color: #848484; */
+        font-weight: lighter;
+        font-size: 13px;
+        padding-left: 190px;
+
+        h3{
+            padding-right: 10px;
+        }
+    }
+}
+.hher{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center
+}
+.inner{
+    margin-right: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
