@@ -1,0 +1,49 @@
+.discover-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.discover-card {
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: grid;
+}
+
+.discover-logo {
+  width: 100%;
+  height: 0;
+  padding-top: calc(342 / 311 * 100%); /* Maintains aspect ratio */
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.discover-logo img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  aspect-ratio: auto 342/311;
+}
+
+.discover-offer h2 {
+  color: red;
+  font-size: 1.5em;
+}
+
+.discover-details h3 {
+  margin: 5px 0px;
+  font-size: 16px;
+  color: #5B5B5B;
+}
+
+.discover-details p {
+  color: #848484;
+  font-size: 10px;
+}
+

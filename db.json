@@ -1,0 +1,201 @@
+{
+  "data": [],
+  "cart": [
+    {
+      "id": "2",
+      "title": "Blue Slogan Rubber 16x24 Inches AntiSkid Bath Mat ",
+      "image": "https://ii2.pepperfry.com/media/catalog/product/b/l/494x544/blue-slogan-rubber-16x24-inches-antiskid-bath-mat-blue-slogan-rubber-16x24-inches-antiskid-bath-mat-t0iv8x.jpg",
+      "price": 129,
+      "originalPrice": 599,
+      "discount": 78
+    },
+    {
+      "id": "1",
+      "title": "Autumn Iron Multicolour Desk Pot",
+      "image": "https://ii3.pepperfry.com/media/catalog/product/a/u/494x544/autumn-iron-multicolour-desk-pot-autumn-iron-multicolour-desk-pot-9puzwj.jpg",
+      "price": 179,
+      "originalPrice": 479,
+      "discount": 63
+    }
+  ],
+  "user": [
+    {
+      "id": "a8a1",
+      "user": "samyak",
+      "pass": "hii",
+      "admin": false
+    }
+  ],
+  "deals": [
+    {
+      "id": "1",
+      "title": "Autumn Iron Multicolour Desk Pot",
+      "price": 179,
+      "originalPrice": 479,
+      "discount": 63,
+      "image": "https://ii3.pepperfry.com/media/catalog/product/a/u/494x544/autumn-iron-multicolour-desk-pot-autumn-iron-multicolour-desk-pot-9puzwj.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Blue Slogan Rubber 16x24 Inches AntiSkid Bath Mat ",
+      "price": 129,
+      "originalPrice": 599,
+      "discount": 78,
+      "image": "https://ii2.pepperfry.com/media/catalog/product/b/l/494x544/blue-slogan-rubber-16x24-inches-antiskid-bath-mat-blue-slogan-rubber-16x24-inches-antiskid-bath-mat-t0iv8x.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Motion Sensor Auto Chargeable Exterior Outdoor LED Wall Light",
+      "price": 199,
+      "originalPrice": 799,
+      "discount": 75,
+      "image": "https://ii3.pepperfry.com/media/catalog/product/m/o/494x544/motion-sensor-auto-chargeable-exterior-outdoor-led-wall-light-motion-sensor-auto-chargeable-exterior-u1gerq.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Light Brown Mango Wood 15mm thick Chopping Board",
+      "price": 179,
+      "originalPrice": 610,
+      "discount": 71,
+      "image": "https://ii3.pepperfry.com/media/catalog/product/i/r/494x544/ireka-homes-mango-wood-chopping-board-serving-platter-with-laser-etching-ireka-homes-mango-wood-chop-iqlkvy.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Family Plaque Set Of 6 Black Synthetic Wood Collage Photo Frames",
+      "price": 219,
+      "originalPrice": 649,
+      "discount": 66,
+      "image": "https://ii3.pepperfry.com/media/catalog/product/b/l/494x544/black-synthetic-wood-set-of-06-photo-frames-with-mdf-family-plaque-by-random-black-synthetic-wood-se-tjlsku.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Peach Floral 220 TC Microfiber King Size Fitted Bedsheet With 2 Pillow Covers",
+      "price": 329,
+      "originalPrice": 849,
+      "discount": 61,
+      "image": "https://ii3.pepperfry.com/media/catalog/product/p/e/494x544/peach-abstract-220-tc-microfiber-king-size-fitted-bedsheet-with-2-pillow-covers-peach-abstract-220-t-z9lnjs.jpg"
+    }
+  ],
+  "bigCard": [
+    {
+      "id": "1",
+      "title": "Snooze and Save!",
+      "des": "Special offers on 300+ beds",
+      "image": "https://ii1.pepperfry.com/assets/77bcb976-535d-4fb8-82db-f0d27e16b91b.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Sink in Comfort! ",
+      "des": "Upgrade your home with 400+ sofa options",
+      "image": "https://ii1.pepperfry.com/assets/d2a1225a-f87c-4eb4-b1ef-c214ca3fcb81.jpg"
+    },
+    {
+      "id": "3",
+      "title": " Unleash Your Brilliance!",
+      "des": "Exclusive offers on over 100+ products",
+      "image": "https://ii1.pepperfry.com/assets/884a9112-737f-4efa-8d84-099c0310fd73.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Organize In Style! ",
+      "des": "Exclusive offers on over 100+ products",
+      "image": "https://ii1.pepperfry.com/assets/54b98562-878a-4316-9a62-55d81906dfd5.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Our Curtains, Your Style! ",
+      "des": "300+ Options of curtains",
+      "image": "https://ii1.pepperfry.com/assets/7fe0ea25-6937-4845-9d36-8bd2dd0866cf.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Nurture Your Nature! ",
+      "des": "400+ Options for gardening",
+      "image": "https://ii1.pepperfry.com/assets/11018d86-2103-487c-9001-8ff59c7b1620.jpg"
+    }
+  ],
+  "discover": [
+    {
+      "id": "1",
+      "title": "Study Tables",
+      "des": "230+ Options, Starting at ₹2,962->",
+      "image": "https://ii1.pepperfry.com/assets/6b490e03-56f8-4ea9-b596-48990494110d.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Wall Shelves",
+      "des": "650+ Options, Starting at ₹299->",
+      "image": "https://ii1.pepperfry.com/assets/c42956ca-a016-4714-8a83-35d5ae825913.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Dining Sets",
+      "des": "400+ Options, Starting at ₹7,599 ->",
+      "image": "https://ii1.pepperfry.com/assets/83485b39-e834-424d-a759-b08d9ad21d5b.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Queen Bedsheets",
+      "des": "1300+ Options, Starting at ₹299->",
+      "image": "https://ii1.pepperfry.com/assets/7ff6c974-df7d-4021-b7d8-b5d73a9ac04d.jpg"
+    }
+  ],
+  "more": [
+    {
+      "id": "1",
+      "title": "Relaxing Coastal Furniture",
+      "des": "120+ Options starting at ₹1,669>",
+      "image": "https://ii1.pepperfry.com/assets/b22a7a2b-b007-44af-a256-6a01ab2cffb7.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Timeless Lumens",
+      "des": "1700+ Options, Starting at ₹449->",
+      "image": "https://ii1.pepperfry.com/assets/587bd407-faee-456c-a523-fd4ab124368a.jpg"
+    },
+    {
+      "id": "3",
+      "title": "The Fluted Collection",
+      "des": "30+ Options, Starting at ₹5,699 ->",
+      "image": "https://ii1.pepperfry.com/assets/b1b3cf72-67f4-4dd7-82de-50542b214943.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Earthenware Essence",
+      "des": "600+ Options, Starting at ₹169->",
+      "image": "https://ii1.pepperfry.com/assets/c0c3db67-240d-48e8-aa2c-d60128b835ae.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Glamm Grandeur Collection",
+      "des": "100+ Options, Starting at ₹2,499 ->",
+      "image": "https://ii1.pepperfry.com/assets/9bfb3473-d5c6-419e-9ada-b531eb3cae29.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Eco Eden",
+      "des": "300+ Options, Starting at ₹179->",
+      "image": "https://ii1.pepperfry.com/assets/25eca948-d5d1-45fe-a6d2-c4c93fef4d5a.jpg"
+    }
+  ],
+  "check": [
+    {
+      "id": "1",
+      "title": "Wall Mounted TV Units",
+      "des": "150+ Options, Starting at ₹3,024 ->",
+      "image": "https://ii1.pepperfry.com/assets/771fcc60-9f09-4b5f-963d-ddf97a9deb62.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Box Storage Beds",
+      "des": "300+ Options Starting at ₹7,399 ->",
+      "image": "https://ii1.pepperfry.com/assets/a289ecb9-09e1-42b6-b0c1-8d0ced2b74e8.jpg"
+    },
+    {
+      "id": "3",
+      "title": "2 Door Wardrobes",
+      "des": "250+ Options, starting at ₹7,899 ->",
+      "image": "https://ii1.pepperfry.com/assets/faf4f51d-5286-4db3-9fe9-6d498a392863.jpg"
+    }
+  ]
+}

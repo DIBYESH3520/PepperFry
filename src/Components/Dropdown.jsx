@@ -1,5 +1,6 @@
+
 import React from "react";
-import "./Dropdown.css";
+import "../css/dropdown.css";
 import { useState } from "react";
 
 function Dropdown() {
@@ -10,9 +11,9 @@ function Dropdown() {
       <div className="tabbarParent">
         <div
           className="mainDiv">
-          <div className="category">
+          {/* <div className="category">
             <p className="category"  onMouseOver={() => {setNav(!nav) }}> Furniture</p>
-          </div>
+          </div> */}
           <div className="category">
             <p  onMouseOver={() => {setNav(!nav) }}>Sofas & Recliners</p>
           </div>

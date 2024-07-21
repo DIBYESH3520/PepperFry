@@ -1,4 +1,7 @@
+
+
 import React from 'react';
+import { Link } from 'react-router-dom';
 import {
   Box,
   Flex,
@@ -23,7 +26,7 @@ import StorefrontIcon from '@mui/icons-material/Storefront';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 
-export default function Navbar() {
+const Navbar = () => {
   const { isOpen, onToggle } = useDisclosure();
   const [isSearchOpen, setSearchOpen] = React.useState(false);
   const logoSrc = useBreakpointValue({ base: '/smalllogo.jpg', md: '/biglogo.jpg' });
@@ -34,13 +37,13 @@ export default function Navbar() {
       <Flex
         bg="white"
         color="gray.800"
-        minH={'60px'}
+        minH="60px"
         py={{ base: 2 }}
         px={{ base: 4 }}
         borderBottom={1}
-        borderStyle={'solid'}
+        borderStyle="solid"
         borderColor="gray.200"
-        align={'center'}
+        align="center"
         justify="space-between"
         position="fixed"
         width="100%"
@@ -52,8 +55,8 @@ export default function Navbar() {
           <IconButton
             onClick={onToggle}
             icon={isOpen ? <CloseIcon w={3} h={3} /> : <HamburgerIcon w={5} h={5} />}
-            variant={'ghost'}
-            aria-label={'Toggle Navigation'}
+            variant="ghost"
+            aria-label="Toggle Navigation"
             color="black"
           />
         </Flex>
@@ -63,21 +66,20 @@ export default function Navbar() {
           align="center"
           flex={{ base: 1, md: 'none' }}
           justify="center"
+          
           width="100%"
           maxWidth="600px"
           display={{ base: 'flex', md: 'none' }}
-          justifyContent="{center}"
         >
           {/* Centered Logo */}
+          <Link to={'/'}>
           <Image
-            src="/smalllogo.jpg"
+            src="./smalllogo.jpg"
             alt="Logo"
             boxSize="50px"
             objectFit="contain"
-            justifyContent="center"
+          /></Link>
 
-          />
-          
           {/* Icons */}
           <Flex
             align="center"
@@ -113,16 +115,18 @@ export default function Navbar() {
         </Flex>
 
         {/* Desktop Logo */}
-        <Image
+        <Link to={'/'}><Image
           src={logoSrc}
           alt="Logo"
           boxSize={{ base: '50px', md: '150px' }}
+          top="-50%"
           objectFit="contain"
           position="absolute"
           left="50%"
           transform="translateX(-50%)"
           display={{ base: 'none', md: 'block' }}
         />
+        </Link>
 
         {/* Desktop Search Input */}
         <InputGroup
@@ -158,7 +162,7 @@ export default function Navbar() {
 
         {/* Desktop Navigation and Icons */}
         <Flex display={{ base: 'none', md: 'flex' }} align="center" ml="auto">
-          <Stack direction={'row'} spacing={4} alignItems="center">
+          <Stack direction="row" spacing={4} alignItems="center">
             <DesktopNav />
             <IconButton
               icon={<FavoriteBorderIcon />}
@@ -167,6 +171,9 @@ export default function Navbar() {
               color="gray.800"
               _hover={{ color: 'orange.500' }} // Hover color change
             />
+            <Link to={'/Cart'}>
+            <button>
+
             <IconButton
               icon={<ShoppingCartOutlinedIcon />}
               variant="ghost"
@@ -174,6 +181,7 @@ export default function Navbar() {
               color="gray.800"
               _hover={{ color: 'orange.500' }} // Hover color change
             />
+            </button></Link>
           </Stack>
         </Flex>
       </Flex>
@@ -205,16 +213,16 @@ const DesktopNav = () => {
   const popoverContentBgColor = 'white';
 
   return (
-    <Stack direction={'row'} spacing={4} alignItems="center">
+    <Stack direction="row" spacing={4} alignItems="center">
       {NAV_ITEMS.map((navItem) => (
         <Box key={navItem.label} position="relative" _hover={{ cursor: 'pointer' }}>
-          <Popover trigger={'hover'} placement={'bottom-start'}>
+          <Popover trigger="hover" placement="bottom-start">
             <PopoverTrigger>
               <Box
                 as="a"
                 p={2}
-                href={navItem.href ?? '#'}
-                fontSize={'sm'}
+                href={navItem.href ?? '/signup'}
+                fontSize="sm"
                 fontWeight={500}
                 color={linkColor}
                 display="flex"
@@ -229,9 +237,10 @@ const DesktopNav = () => {
               >
                 {navItem.label === 'Find a\n Store' ? (
                   <Flex align="center" justifyContent="flex-end" width="100%">
+                    <Link to={'/addProd'}>
                     <Text color="inherit" whiteSpace="pre">
-                      Find a{'\n'}<span style={{ color: 'red' }}>Store</span>
-                    </Text>
+                      Add a{'\n'}<span style={{ color: 'red' }}>Store</span>
+                    </Text></Link>
                     <StorefrontIcon className="hover-icon" style={{ fontSize: 24, marginLeft: 8 }} />
                   </Flex>
                 ) : navItem.label === 'Sign Up Now\nGet Credits worth INR 10,000' ? (
@@ -259,20 +268,22 @@ const DesktopNav = () => {
             {navItem.children && (
               <PopoverContent
                 border={0}
-                boxShadow={'xl'}
+                boxShadow="xl"
                 bg={popoverContentBgColor}
                 p={4}
                 rounded={0}
-                minW={'sm'}
+                minW="sm"
               >
                 <Stack spacing={4}>
-                  <Text fontSize={'lg'} fontWeight={600}>
+                  <Text fontSize="lg" fontWeight={600}>
                     {navItem.children[0].label}
                   </Text>
-                  <Text fontSize={'sm'}>{navItem.children[0].subLabel}</Text>
+                  <Text fontSize="sm">{navItem.children[0].subLabel}</Text>
+                  <Link to={'/signup'}>
                   <Button colorScheme="red" width="200px" rounded={0}>
                     LOGIN/SIGNUP
                   </Button>
+                  </Link>
                 </Stack>
               </PopoverContent>
             )}
@@ -311,12 +322,15 @@ const NAV_ITEMS = [
       {
         label: 'Welcome',
         subLabel: 'Register now and Get Exclusive Benefits!',
-        href: '#',
+        href: '/signup',
       },
     ],
   },
   {
     label: 'Find a\n Store',
-    href: '',
+    href: '#',
   },
 ];
+
+export default Navbar;
+
