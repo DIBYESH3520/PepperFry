@@ -31,8 +31,8 @@ const AddProd = () => {
             });
             let data = await res.json();
             console.log(data);
-            setDeals([...deals, obj]); // Add new product to the list
-            // Clear form fields after submission
+            setDeals([...deals, obj]); 
+            
             setTitle("");
             setDes("");
             setPrice("");

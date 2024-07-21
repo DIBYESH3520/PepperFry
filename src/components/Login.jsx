@@ -1,6 +1,7 @@
 import { isAdminContext } from "../context/isAdmin";
 import React, { useContext, useEffect, useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
+import { isLoginContext } from "../context/isLogin";
 import '../css/login.css'; 
 
 const Login = () => {
@@ -8,8 +9,8 @@ const Login = () => {
   const [userName, setUserName] = useState("");
   const [pass, setPass] = useState("");
 
-  const navigate = useNavigate();
-  const { toggleLogin } = useContext(isAdminContext); 
+  const nav = useNavigate();
+  const { toggleLogin } = useContext(isLoginContext); 
 
   async function fetchData() {
     try {
@@ -34,11 +35,11 @@ const Login = () => {
 
     if (userFound) {
       alert("Login successful!");
+      nav('/');
       toggleLogin(); 
-      navigate("/");
     } else {
       alert("You are not signed up");
-      navigate("/signup");
+      nav('/signup');
     }
   }
 

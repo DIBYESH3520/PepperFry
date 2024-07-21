@@ -4,8 +4,8 @@ import App from "./App.jsx";
 import { BrowserRouter } from "react-router-dom";
 import Navbar from "./components/NavBar.jsx";
 import AdminContextProvider from "./context/isAdmin.jsx";
-import IsLoginContextProvider from "./context/isLogin.jsx"; // Renamed to follow convention
-import Dropdown from "./components/dropdown.jsx"; // Ensured consistent naming convention
+import IsLoginContextProvider from "./context/isLogin.jsx"; 
+import Dropdown from "./components/dropdown.jsx"; 
 import { ChakraProvider } from '@chakra-ui/react';
 // import './index.css'
 

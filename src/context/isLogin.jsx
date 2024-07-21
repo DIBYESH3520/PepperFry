@@ -7,6 +7,7 @@ export default function isLoginContextProvider({children}){
 
     function toggleLogin(){
         setIsLogin(!isLogin)
+        console.log(isLogin);
     }
     return(
         <isLoginContext.Provider value={{isLogin, toggleLogin}}>{children}</isLoginContext.Provider>

@@ -1,29 +1,3 @@
-// import React from "react";
-// import { Link } from "react-router-dom";
-
-// const Navbar = () => {
-//   return (
-//     <>
-//       <button>
-//         <Link to="/">Home</Link>
-//       </button>
-//       <button>
-//         <Link to="/addProd">Add Product</Link>
-//       </button>
-//       <button>
-//         <Link to="/Cart">Cart</Link>
-//       </button>
-//       <button>
-//         <Link to="/signup">SignUp</Link>
-//       </button>
-//       <button>
-//         <Link to="/Login">Login</Link>
-//       </button>
-//     </>
-//   );
-// };
-
-// export default Navbar;
 
 
 import React from 'react';
@@ -92,17 +66,19 @@ const Navbar = () => {
           align="center"
           flex={{ base: 1, md: 'none' }}
           justify="center"
+          
           width="100%"
           maxWidth="600px"
           display={{ base: 'flex', md: 'none' }}
         >
           {/* Centered Logo */}
+          <Link to={'/'}>
           <Image
-            src="/smalllogo.jpg"
+            src="./smalllogo.jpg"
             alt="Logo"
             boxSize="50px"
             objectFit="contain"
-          />
+          /></Link>
 
           {/* Icons */}
           <Flex
@@ -139,16 +115,18 @@ const Navbar = () => {
         </Flex>
 
         {/* Desktop Logo */}
-        <Image
+        <Link to={'/'}><Image
           src={logoSrc}
           alt="Logo"
           boxSize={{ base: '50px', md: '150px' }}
+          top="-50%"
           objectFit="contain"
           position="absolute"
           left="50%"
           transform="translateX(-50%)"
           display={{ base: 'none', md: 'block' }}
         />
+        </Link>
 
         {/* Desktop Search Input */}
         <InputGroup

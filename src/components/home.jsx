@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 // import Card from './Card';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import DealsComponent from './cards/DealComponent';
 import BigCard from './cards/bigCard';
 import DiscoverCard from './cards/discoverCard';
@@ -51,9 +51,10 @@ const Home = ({ data }) => {
                     <img src='https://ii1.pepperfry.com/assets/cca90874-cf5a-476f-9fc0-eb9cd5480de2.jpg' alt='small banner'/>
                 
             </div>
+            <Link to={'./signup'}>
             <div className='ads'>
         <img src='https://ii1.pepperfry.com/assets/a7f49ef5-f5c8-4430-a656-fbd129e4db8a.jpg' alt='ads'/>
-            </div>
+            </div></Link>
             <div className="deals-component">
                 <DealsComponent />
             </div>

@@ -48,8 +48,8 @@
     /* display: flex; 
     align-items: center; 
     justify-content: center;  */
-    white-space: nowrap; /* Prevent wrapping */
-  overflow: hidden; /* Hide overflow */
+    white-space: nowrap; 
+  overflow: hidden; 
   text-overflow: ellipsis;
      text-align: left; 
   }
