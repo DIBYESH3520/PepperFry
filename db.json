@@ -1,22 +1,6 @@
 {
   "data": [],
   "cart": [
-    {
-      "id": "2",
-      "title": "Blue Slogan Rubber 16x24 Inches AntiSkid Bath Mat ",
-      "image": "https://ii2.pepperfry.com/media/catalog/product/b/l/494x544/blue-slogan-rubber-16x24-inches-antiskid-bath-mat-blue-slogan-rubber-16x24-inches-antiskid-bath-mat-t0iv8x.jpg",
-      "price": 129,
-      "originalPrice": 599,
-      "discount": 78
-    },
-    {
-      "id": "1",
-      "title": "Autumn Iron Multicolour Desk Pot",
-      "image": "https://ii3.pepperfry.com/media/catalog/product/a/u/494x544/autumn-iron-multicolour-desk-pot-autumn-iron-multicolour-desk-pot-9puzwj.jpg",
-      "price": 179,
-      "originalPrice": 479,
-      "discount": 63
-    }
   ],
   "user": [
     {
@@ -74,6 +58,14 @@
       "originalPrice": 849,
       "discount": 61,
       "image": "https://ii3.pepperfry.com/media/catalog/product/p/e/494x544/peach-abstract-220-tc-microfiber-king-size-fitted-bedsheet-with-2-pillow-covers-peach-abstract-220-t-z9lnjs.jpg"
+    },
+    {
+      "id": "7",
+      "title": "Autumn Iron Multicolour Desk Pot",
+      "price": 179,
+      "originalPrice": 479,
+      "discount": 63,
+      "image": "https://ii3.pepperfry.com/media/catalog/product/a/u/494x544/autumn-iron-multicolour-desk-pot-autumn-iron-multicolour-desk-pot-9puzwj.jpg"
     }
   ],
   "bigCard": [

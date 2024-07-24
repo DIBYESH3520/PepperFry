@@ -177,10 +177,6 @@ Regardless of whether you choose to shop for home furniture online or offline, w
         </div>
         <hr />
         <div className='FooterFourthHalf'>
-          <div className="leftside">
-            <h3>Buy In Bulk</h3>
-            <h3>Write A Testimonial</h3>
-          </div>
           <div className="rightside">
             <h3>Whitehat</h3>
             <h3>Site Map</h3>
@@ -188,7 +184,12 @@ Regardless of whether you choose to shop for home furniture online or offline, w
             <h3>Privacy Policy</h3>
             <h3>Your Data & Security</h3>
             <h3>Grievance Redressal</h3>
+
           </div>
+          <footer>
+      <p>© Copyright Pepperfry Limited</p>
+    </footer>
+
         </div>
       </div>
     </div>

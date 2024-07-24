@@ -66,6 +66,14 @@ hr {
     padding: 20px;
     grid-gap: 20px;
 }
+footer{
+    display: flex;
+    flex-direction: row;
+    font-weight: lighter;
+    font-size: 15px;
+    padding-left: 20px;
+    justify-content: center;
+}
 
 .PopularCategories,
 .PopularBrands,
@@ -80,8 +88,7 @@ hr {
         font-weight: lighter;
         font-size: 14px;
         line-height: 1.4;
-    }
-}
+    }}
 
 .FooterThirdHalf {
     display: flex;
@@ -123,10 +130,11 @@ hr {
     .leftside,
     .rightside {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         font-weight: lighter;
-        font-size: 13px;
+        font-size: 15px;
         padding-left: 20px;
+        justify-content: center;
 
         h3 {
             padding-right: 10px;
@@ -175,6 +183,5 @@ hr {
         .leftside, .rightside {
             padding-left: 0;
             align-items: center;
-        }
-    }
+ }}
 }
