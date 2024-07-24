@@ -129,7 +129,15 @@ Regardless of whether you choose to shop for home furniture online or offline, w
             </ul>
           </div>
           <div className='DownloadApp'>
-              <h2>Download App</h2>
+
+              <h2>Shop Built Safe Products</h2>
+              <ul>
+              <li>Kids & Pet Friendly</li>
+              <li>Certified Non-Toxic</li>
+              <li>Made with Vegetarian Glue</li>
+              <li>Scratch Resistant Finish</li>
+              </ul>
+              <h2>Download Our App</h2>
               <img src="https://th.bing.com/th?id=OIP.fn_qr7uzdYZfa8zVcFbNYgHaCj&w=350&h=120&c=8&rs=1&qlt=90&o=6&dpr=1.1&pid=3.1&rm=2" alt={"AppStore"} /><br/>
               <img src="https://ii1.pepperfry.com/assets/pf23-google-appstore-logo.png" alt={"GooglePlay"} />
           </div>
